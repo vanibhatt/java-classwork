@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name ="Automation">
 	<test name="testingTestNG">
@@ -6,4 +7,14 @@
 			<class name="com.testNG.example.testNGdemo" />
 		</classes>	
 	</test>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Automation">
+	<test name="testingTestNG">
+		<classes>
+			<class name="com.testNG.example.secondNGdemo" />
+			<class name="com.testNG.example.testNGdemo" />
+		</classes>	
+	</test>
+>>>>>>> 61b6bdb69ac67f484e80402861f00e1411229ed1
 </suite>

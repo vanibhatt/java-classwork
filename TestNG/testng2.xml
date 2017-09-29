@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
@@ -13,3 +14,20 @@
     </classes>
   </test> 
 </suite> 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="testcases">
+    <groups>
+      <run>
+      	<include name="group1" />
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testNG.example.GroupTest"/>
+      <class name="com.testNG.example.secondNGdemo"/>
+    </classes>
+  </test> 
+</suite> 
+>>>>>>> 61b6bdb69ac67f484e80402861f00e1411229ed1
