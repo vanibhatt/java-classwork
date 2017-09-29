@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Automation">
+	<test name="testingTestNG">
+		<classes>
+			<class name="com.testNG.example.secondNGdemo" />
+			<class name="com.testNG.example.testNGdemo" />
+		</classes>	
+	</test>
+</suite>
