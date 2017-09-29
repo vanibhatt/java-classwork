@@ -1,0 +1,44 @@
+package com.home.bo;
+
+
+import com.home.dao.LocationAddressrDAO;
+import com.home.exception.RegistrationException;
+import com.home.model.LocationAddress;
+
+public class LocationAddressBO {
+	
+	public LocationAddress getLocationAddressr(final int user_id) throws RegistrationException{
+
+		final LocationAddressrDAO loginDAO = new LocationAddressrDAO();
+		LocationAddress location_address = null;
+		try
+		{	
+			location_address = loginDAO.getLocationAddress(user_id);
+		}
+		catch(RegistrationException e)
+		{
+			throw new RegistrationException(e.getMessage());
+		}
+		return location_address;
+	}
+	public void savelocationaddress(final LocationAddress location_address) throws RegistrationException{
+
+		final LocationaddressDAO location_addressDAO = new locationAddressDAO();
+		try
+		{
+			location_addressDAO.saveLocationAddress(location_address);
+			
+		}
+		catch(RegistrationException e)
+		{
+			throw new RegistrationException(e.getMessage());
+		}
+	}
+	
+	public static void main(String[] args) throws RegistrationException {
+		// TODO Auto-generated method stub
+		LocationAddressBO o = new LocationAddressBO();
+		o.getLocationAddress(1);
+	}
+
+}

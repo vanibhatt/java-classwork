@@ -1,0 +1,15 @@
+package second.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MyNameTest {
+
+	@Test
+	public void test() {
+		Junitlesson juni = new Junitlesson();
+		assertThat("Vani",juni.myname());
+	}
+
+}

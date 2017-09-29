@@ -1,0 +1,19 @@
+1504715335226	Delete element
+1504715555772	Rename compilation unit 'Main.java'
+1504715619114	Delete element
+1504715797245	Rename type 'A'
+1504715827352	Rename local variable 'x'
+1504715841420	Rename local variable 'y'
+1504715879510	Rename local variable 'z'
+1504715914446	Rename type 'B'
+1504715924840	Rename method 'x'
+1504717005206	Rename compilation unit 'song.java'
+1504717496782	Extract method 'pause'
+1504731829584	Move compilation units
+1504731839307	Delete element
+1504731861842	Rename package 'nurseryRhymes.oldMacdonald2'
+1504731871218	Move compilation unit
+1504732047204	Rename compilation unit 'chicken.java'
+1504815298491	Rename package 'nurseryRhymes.oldMacdonald'
+1504815353346	Move compilation unit
+1504815358155	Move compilation unit

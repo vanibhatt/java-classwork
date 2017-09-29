@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FirstSpringMVCDemo/WebContent/WEB-INF/spring-dispatcher-servlet-xml&apos; to &apos;spring-dispatcher-servlet.xml&apos;" description="Rename resource &apos;spring-dispatcher-servlet-xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/spring-dispatcher-servlet-xml" name="spring-dispatcher-servlet.xml" stamp="1505139546798" updateReferences="true"/>
+</session>

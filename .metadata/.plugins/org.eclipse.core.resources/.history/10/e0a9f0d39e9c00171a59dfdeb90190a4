@@ -1,0 +1,22 @@
+package second.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class MyNameTest {
+
+	@Test
+	public void test() {
+		Junitlesson juni = new Junitlesson();
+		assertEquals("Vani",juni.myname());
+		System.out.println("Im in first test");
+	}
+	
+	@Before
+	public void beforeTest() {
+		System.out.println("before method");
+	}
+
+}

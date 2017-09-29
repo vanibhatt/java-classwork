@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.home.dao.AbstractDAOConnection&apos; to &apos;AbstractDAOFactory&apos;&#x0D;&#x0A;- Original project: &apos;HomeOwnerCaseStudy&apos;&#x0D;&#x0A;- Original element: &apos;com.home.dao.AbstractDAOConnection&apos;&#x0D;&#x0A;- Renamed element: &apos;com.home.dao.AbstractDAOFactory&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AbstractDAOConnection&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.home.dao{AbstractDAOConnection.java[AbstractDAOConnection" matchStrategy="1" name="AbstractDAOFactory" qualified="false" references="true" similarDeclarations="false" stamp="1505231148743" textual="false" version="1.0"/>
+</session>
